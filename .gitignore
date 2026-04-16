@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS / editors
+.DS_Store
+.vscode/
+.idea/
+
+# Data / artifacts
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+artifacts/models/*
+!artifacts/models/.gitkeep
+artifacts/evaluation/*
+!artifacts/evaluation/.gitkeep
+artifacts/logs/*
+!artifacts/logs/.gitkeep
+
+# Env / secrets
+.env
+.env.*
+*.pem
+*.key
+
+# Misc
+wandb/
+.env
+.DS_Store

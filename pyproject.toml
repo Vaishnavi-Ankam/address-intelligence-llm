@@ -1,0 +1,10 @@
+[project]
+name = "address-intelligence"
+version = "0.1.0"
+description = "LLM-powered address intelligence system with RAG, multi-agent orchestration, QLoRA fine-tuning, and BigQuery evaluation."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[tool.setuptools]
+package-dir = {"" = "src"}
